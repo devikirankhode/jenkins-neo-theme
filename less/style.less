@@ -53,9 +53,10 @@ h3 {
   z-index: 1030;
   letter-spacing: 1px;
   padding: 3px;
+  padding-left: 310px;
   //Custom logo - path here
-  background: url('/images/TILogo.png') no-repeat @color-primary;
-  background-size: auto 45px, cover; 
+  background: url('../images/TILogo.png') no-repeat @color-primary;
+  background-size: auto 40px, cover; 
 
   .login {
     top: inherit;
@@ -71,7 +72,7 @@ h3 {
     }
     // Custom logo - hide the default images, but retain the link
     #jenkins-home-link img {
-      opacity: 0;
+       opacity: 0;
     }
   }
 
@@ -245,7 +246,7 @@ th.pane {
 }
 
 a#jenkins-home-link {
-  opacity: 1 !important;
+  opacity: 0 !important;
 }
 
 table.progress-bar.red td.progress-bar-done {
